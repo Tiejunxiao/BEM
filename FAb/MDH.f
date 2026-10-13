@@ -73,10 +73,10 @@ C*     potential.dat saves  the induced potential of each site
 C*     ue.dat saves the electrostatic energy of the solute
    
  
-       open(unit=30,file='TAb.crg',status='old')
-       open(unit=32,file='TAb.curvature',status='old')
-       open(unit=40,file='TAb.vert',status='old')
-       open(unit=50,file='TAb.face',status='old')    
+       open(unit=30,file='FAb.crg',status='old')
+       open(unit=32,file='FAb.curvature',status='old')
+       open(unit=40,file='FAb.vert',status='old')
+       open(unit=50,file='FAb.face',status='old')    
 
        open(unit=20,file='ue-MDH.dat',status='unknown')
        
